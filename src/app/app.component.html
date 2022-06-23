@@ -1,1 +1,5 @@
+<input type="text" (keyup)="onChangeImage($event)" [value]="imgURL">
+<app-post [image]="imgURL" (imgSelected)="logImg($event)">
+  <p>Image caption</p>
+</app-post>
 <p>Hello World!</p>
